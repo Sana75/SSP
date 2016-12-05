@@ -4,7 +4,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 
 import com.bt.ssp.config.WebConfig;
 
-public class SpitterWebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
+public class SSPWebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
   
   @Override
   protected Class<?>[] getRootConfigClasses() {
