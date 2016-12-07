@@ -29,7 +29,7 @@ public class HibernateConfiguration {
     public LocalSessionFactoryBean sessionFactory() {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
-        sessionFactory.setPackagesToScan(new String[] { "com.bt.ssp.modal" });
+        sessionFactory.setPackagesToScan(new String[] { "com.bt.ssp.model" });
         sessionFactory.setHibernateProperties(hibernateProperties());
         return sessionFactory;
      }

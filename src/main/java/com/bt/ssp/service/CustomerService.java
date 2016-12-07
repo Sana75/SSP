@@ -1,6 +1,6 @@
 package com.bt.ssp.service;
 
-import com.bt.ssp.modal.Customer;
+import com.bt.ssp.model.Customer;
 
 public interface CustomerService {
 

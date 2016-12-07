@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.bt.ssp.modal.Customer;
+import com.bt.ssp.model.Customer;
 import com.bt.ssp.service.CustomerService;
 
 @Controller

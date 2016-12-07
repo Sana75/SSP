@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.bt.ssp.dao.CustomerDao;
-import com.bt.ssp.modal.Customer;
+import com.bt.ssp.model.Customer;
 import com.bt.ssp.service.CustomerService;
 
 @Service
